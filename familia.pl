@@ -20,7 +20,7 @@ bisnietode(A,B):-padrede(C,A),padrede(D,C),padrede(B,D).
 
 
 familiarde(A,B) :- padrede(A,B).
-familiarde(A,B) :- hijode(A,B)
+familiarde(A,B) :- hijode(A,B).
 familiarde(A,B) :- abuelode(A,B).
 familiarde(A,B) :- hermanode(A,B).
 familiarde(A,B) :- tiode(A,B).
